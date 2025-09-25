@@ -33,18 +33,16 @@ const Contact = () => {
         "template_jjegxdr",
         {
           from_name: form.name,
-          to_name: "Om Patel",
+          to_name: "Dakshata",
           from_email: form.email,
-          to_email: "omunite21@gmail.com",
+          to_email: "dakshata@gmail.com",
           message: form.message,
         },
         "VeFeVdEHL9F9_i6xp"
       )
       .then(() => {
         setLoading(false);
-        alert(
-          "A humble thanks for reaching me out. I will respond to you as soon as possible."
-        );
+        alert("Let's connect and change the world together.");
         setForm({
           name: "",
           email: "",
